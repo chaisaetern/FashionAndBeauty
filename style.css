@@ -132,6 +132,7 @@
   .main .hero-container .hero-img-container img {
     -webkit-filter: brightness(80%);
             filter: brightness(80%);
+    width: 100vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
