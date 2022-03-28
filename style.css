@@ -64,8 +64,7 @@
     color: #6B6A78;
     line-height: 1.8rem;
     text-align: end;
-    margin-top: 0.4rem;
-    padding-left: 8rem;
+    margin: 0.4rem 0 0 8rem;
   }
   .main {
     width: 100vw;
@@ -130,8 +129,6 @@
     margin-right: 1.75rem;
   }
   .main .hero-container .hero-img-container img {
-    -webkit-filter: brightness(80%);
-            filter: brightness(80%);
     width: 100vw;
   }
 }

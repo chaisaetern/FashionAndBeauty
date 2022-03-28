@@ -47,8 +47,7 @@
                     color: #6B6A78;
                     line-height: 1.8rem;
                     text-align: end;
-                    margin-top: 0.4rem;
-                    padding-left: 8rem;
+                    margin: 0.4rem 0 0 8rem;
                 }
             }
         }
@@ -92,7 +91,6 @@
             }
             .hero-img-container {
                 img {
-                    filter: brightness(80%);
                     width: 100vw;
                 }
             }
