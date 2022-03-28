@@ -5,7 +5,7 @@
     margin: 0;
   }
   h1, h2, h3, h4, h5, h6, p,
-  ul, li, a, div, img {
+  ul, li, a, div, section, img {
     margin: 0;
     padding: 0;
   }
@@ -20,7 +20,7 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .header-overlay {
+  .header .header-overlay {
     width: 85vw;
     background-color: #292933;
     display: -webkit-box;
@@ -33,7 +33,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .header-text-container {
+  .header .header-overlay .header-text-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -49,23 +49,89 @@
             justify-content: center;
     margin-right: 4rem;
   }
-  .header-text-container > .header-logo {
+  .header .header-overlay .header-text-container img {
     width: 5.5rem;
   }
-  .header-text-container > h1 {
+  .header .header-overlay .header-text-container h1 {
     font-family: "Titillium Web", sans-serif;
     color: #fff;
     font-weight: 100;
     margin: 0.5rem 0;
   }
-  .header-text-container > p {
-    max-width: 60%;
+  .header .header-overlay .header-text-container p {
     font-family: "Raleway", sans-serif;
     font-size: 1.1rem;
     color: #6B6A78;
     line-height: 1.8rem;
     text-align: end;
     margin-top: 0.4rem;
+    padding-left: 8rem;
+  }
+  .main {
+    width: 100vw;
+    height: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero-container {
+    width: 75vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero-container .hero-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 5rem 1rem;
+  }
+  .main .hero-container .hero-text h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 1.2rem;
+  }
+  .main .hero-container .hero-text p {
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    line-height: 1.6rem;
+    margin-right: 1.75rem;
+  }
+  .main .hero-container .hero-img-container img {
+    -webkit-filter: brightness(80%);
+            filter: brightness(80%);
   }
 }
 /*# sourceMappingURL=style.css.map */
