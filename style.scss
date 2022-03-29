@@ -17,7 +17,7 @@ body {
         font-weight: 100;
         font-size: 2.2rem;
     }
-    p {
+    p, span, a {
         font-family: "Raleway", sans-serif;
         font-size: 1.1rem;
     }
@@ -158,7 +158,8 @@ body {
         // PROJECT TEXT
         .project-text {
             width: 65vw;
-            // height: 65vh;
+            border-top: 2.5rem solid #292933;
+            border-bottom: 2.5rem solid #292933;
             background-color: #D2AE5F;
             padding: 1.5rem;
             img {
@@ -207,7 +208,7 @@ body {
             }
             .creative-section-2 {
                 width: 75vw;
-                margin: 4rem;
+                margin-top: 4rem;
                 h2 {
                     color: #D2AE5F;
                     font-size: 4.5rem;
@@ -217,8 +218,8 @@ body {
                     overflow: hidden;
                     img {
                         width: 100%;
-                        height: 45vh;
-                        transform: scale(1.1);
+                        height: 48vh;
+                        transform: scale(1.1) rotate(30deg);
                     }
                 }
             }
@@ -239,8 +240,10 @@ body {
                 background-color: #fff;
                 margin: 4rem 0;
                 .banner-img-container {
-                    background-color: #D2AE5F;
                     padding: 4rem 0;
+                    background-color: #D2AE5F;
+                    border-top: 2.5rem solid #292933;
+                    border-bottom: 2.5rem solid #292933;
                     img {
                         width: 100%;
                     }
@@ -250,7 +253,7 @@ body {
                     padding: 1rem;
                 }
                 .banner-list-container {
-                    padding: 1rem;
+                    padding: 1rem 1rem 3rem 1rem;
                     p {
                         line-height: 2rem;
                     }
@@ -259,7 +262,115 @@ body {
         }
 
 
-        // 
+        // BRAND CONTAINER
+        .brand-container {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-self: flex-start;
+            align-items: center;
+            background-color: #292933;
+            padding: 3rem 0;
+            .brand {
+                width: 75vw;
+                h2 {
+                    color: #fff;
+                    padding: 2rem 0;
+                }
+                img {
+                    width: 100%;
+                    position: relative;
+                    bottom: -5px;
+                }
+                .brand-text {
+                    background-color: #D2AE5F;
+                    margin: 0;
+                    padding: 2rem;
+                    p {
+                        color: #fff;
+                        font-size: 1.4rem;
+                        line-height: 2.5rem;
+                        margin: 1rem 0;
+                    }
+                }
+                .tiles-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .tile {
+                        width: 75vw;
+                        height: 26rem;
+                        background-color: #fff;
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .tile:nth-child(2) {
+                        img {
+                            transform: scale(1.7);
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // SERVICES CONTAINER
+        .services-container {
+            width: 100vw;
+            background-color: #292933;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .services-layer {
+                width: 75vw;
+                padding: 4rem;
+                h2 {
+                    margin: 3rem;
+                }
+                .services-lists {
+                    h2 {
+                        color: #D2AE5F;
+                        font-size: 1.5rem;
+                    }
+                    p {
+                        line-height: 3rem;
+                    }
+                }
+            }
+        }
+
+
+        // FOOTER CONTAINER
+        .footer {
+            width: 100%;
+            background: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .footer-text {
+                height: 15vh;
+                width: 75vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    color: #cfcfcf;
+                }
+                span {
+                    font-size: 0.8rem;
+                    margin: 0 0.3rem;
+                }
+            }
+        }
     }
 }
 
