@@ -297,7 +297,7 @@ body p {
   .main .banner-container .banner {
     width: 75vw;
     background-color: #fff;
-    margin-top: 4rem;
+    margin: 4rem 0;
   }
   .main .banner-container .banner .banner-img-container {
     background-color: #D2AE5F;
@@ -307,6 +307,7 @@ body p {
     width: 100%;
   }
   .main .banner-container .banner h2 {
+    margin: 1rem 0;
     padding: 1rem;
   }
   .main .banner-container .banner .banner-list-container {
