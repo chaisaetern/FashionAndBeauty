@@ -276,8 +276,8 @@ body p, body span, body a {
   .main .creative-container .creative-section-2 .creative-img-container-2 img {
     width: 100%;
     height: 48vh;
-    -webkit-transform: scale(1.1) rotate(30deg);
-            transform: scale(1.1) rotate(30deg);
+    -webkit-transform: scale(1.1) rotate(-13deg);
+            transform: scale(1.1) rotate(-13deg);
   }
   .main .banner-container {
     width: 100vw;
@@ -343,7 +343,13 @@ body p, body span, body a {
     color: #fff;
     padding: 2rem 0;
   }
-  .main .brand-container .brand img {
+  .main .brand-container .brand .brand-img-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .main .brand-container .brand .brand-img-container img {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
     width: 100%;
     position: relative;
     bottom: -5px;
