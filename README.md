@@ -1,2 +1,3 @@
 # FashionAndBeauty
-# Mobile First
+## Mobile First
+### 480px, 768px, 1200px
