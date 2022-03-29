@@ -230,5 +230,53 @@ body p {
   .main .project-showcase img {
     width: 100%;
   }
+  .main .creative-container {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #292933;
+  }
+  .main .creative-container .creative-section-1 {
+    width: 75vw;
+    margin: 3em;
+  }
+  .main .creative-container .creative-section-1 .creative-img-container-1 img {
+    width: 100%;
+  }
+  .main .creative-container .creative-section-1 p {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin: 2rem 0;
+  }
+  .main .creative-container .creative-section-2 {
+    width: 75vw;
+    margin: 3rem;
+  }
+  .main .creative-container .creative-section-2 h2 {
+    color: #D2AE5F;
+    font-size: 4.5rem;
+    margin: 1rem 0;
+  }
+  .main .creative-container .creative-section-2 .creative-img-container-2 {
+    overflow: hidden;
+  }
+  .main .creative-container .creative-section-2 .creative-img-container-2 img {
+    width: 100%;
+    height: 45vh;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -153,6 +153,8 @@ body {
                 background: #424251;
             }
         }
+
+
         // PROJECT TEXT
         .project-text {
             width: 65vw;
@@ -169,11 +171,56 @@ body {
                 margin-bottom: 2rem;
             }
         }
+
+
         // PROJECT SHOWCASE
         .project-showcase {
             width: 90vw;
             img {
                 width: 100%;
+            }
+        }
+
+
+        // CREATIVE CONTAINER
+        .creative-container {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #292933;
+            .creative-section-1 {
+                width: 75vw;
+                margin: 3em;
+                .creative-img-container-1 {
+                    img {
+                        width: 100%;
+                    }
+                }
+                p {
+                    color: #fff;
+                    font-size: 1.5rem;
+                    line-height: 2.2rem;
+                    margin: 2rem 0;
+                }
+            }
+            .creative-section-2 {
+                width: 75vw;
+                margin: 3rem;
+                h2 {
+                    color: #D2AE5F;
+                    font-size: 4.5rem;
+                    margin: 1rem 0;
+                }
+                .creative-img-container-2 {
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: 45vh;
+                        transform: scale(1.1);
+                    }
+                }
             }
         }
     }
