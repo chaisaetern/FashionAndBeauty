@@ -100,12 +100,12 @@ body {
             }
             .hero-img-container {
                 width: 75vw;
-                height: 65vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin: 1rem;
-                background-color: #292933;
+                border-top: 2.5rem solid #292933;
+                border-bottom: 2.5rem solid #292933;
                 overflow: hidden;
                 img {
                     width: 100%;
