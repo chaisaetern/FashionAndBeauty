@@ -361,18 +361,30 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            .footer-text {
+            span {
+                font-size: 0.8rem;
+                margin: 0 0.3rem;
+            }
+            a {
+                color: #cfcfcf;
+            }
+            .footer-layer {
                 height: 15vh;
-                width: 75vw;
-                display: flex;
+                display: inherit;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                a {
-                    color: #cfcfcf;
+                .footer-text {
+                    width: 75vw;
+                    display: inherit;
+                    justify-content: center;
+                    align-items: center;
                 }
-                span {
-                    font-size: 0.8rem;
-                    margin: 0 0.3rem;
+                .footer-author {
+                    display: inherit;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
         }
