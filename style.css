@@ -248,7 +248,7 @@ body p {
   }
   .main .creative-container .creative-section-1 {
     width: 75vw;
-    margin: 3em;
+    margin: 4em;
   }
   .main .creative-container .creative-section-1 .creative-img-container-1 img {
     width: 100%;
@@ -261,7 +261,7 @@ body p {
   }
   .main .creative-container .creative-section-2 {
     width: 75vw;
-    margin: 3rem;
+    margin: 4rem;
   }
   .main .creative-container .creative-section-2 h2 {
     color: #D2AE5F;
@@ -276,6 +276,44 @@ body p {
     height: 45vh;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+  }
+  .main .banner-container {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #F5F5F7;
+  }
+  .main .banner-container .banner {
+    width: 75vw;
+    background-color: #fff;
+    margin-top: 4rem;
+  }
+  .main .banner-container .banner .banner-img-container {
+    background-color: #D2AE5F;
+    padding: 4rem 0;
+  }
+  .main .banner-container .banner .banner-img-container img {
+    width: 100%;
+  }
+  .main .banner-container .banner h2 {
+    padding: 1rem;
+  }
+  .main .banner-container .banner .banner-list-container {
+    padding: 1rem;
+  }
+  .main .banner-container .banner .banner-list-container p {
+    line-height: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

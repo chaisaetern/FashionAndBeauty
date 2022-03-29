@@ -192,7 +192,7 @@ body {
             background-color: #292933;
             .creative-section-1 {
                 width: 75vw;
-                margin: 3em;
+                margin: 4em;
                 .creative-img-container-1 {
                     img {
                         width: 100%;
@@ -207,7 +207,7 @@ body {
             }
             .creative-section-2 {
                 width: 75vw;
-                margin: 3rem;
+                margin: 4rem;
                 h2 {
                     color: #D2AE5F;
                     font-size: 4.5rem;
@@ -223,6 +223,42 @@ body {
                 }
             }
         }
+
+
+
+        // BANNER CONTAINER
+        .banner-container {
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #F5F5F7;
+            .banner {
+                width: 75vw;
+                background-color: #fff;
+                margin-top: 4rem;
+                .banner-img-container {
+                    background-color: #D2AE5F;
+                    padding: 4rem 0;
+                    img {
+                        width: 100%;
+                    }
+                }
+                h2 {
+                    padding: 1rem;
+                }
+                .banner-list-container {
+                    padding: 1rem;
+                    p {
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+
+
+        // 
     }
 }
 
