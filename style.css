@@ -208,5 +208,11 @@ body p {
     font-weight: 600;
     line-height: 1.7rem;
   }
+  .main .project-showcase {
+    width: 90vw;
+  }
+  .main .project-showcase img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
