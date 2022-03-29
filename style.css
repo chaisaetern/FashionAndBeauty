@@ -165,7 +165,6 @@ body p {
   }
   .main .project-container {
     width: 100vw;
-    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -194,9 +193,25 @@ body p {
     height: 0.6rem;
     background-color: #000;
   }
+  .main .project-container h3 {
+    width: 75vw;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .main .project-container button {
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    color: #fff;
+    width: 10rem;
+    height: 3rem;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+    border: none;
+    background: #424251;
+  }
   .main .project-text {
     width: 65vw;
-    height: 65vh;
+    height: 60vh;
     background-color: #D2AE5F;
     padding: 1.5rem;
   }
@@ -207,6 +222,7 @@ body p {
   .main .project-text p {
     font-weight: 600;
     line-height: 1.7rem;
+    margin-bottom: 2rem;
   }
   .main .project-showcase {
     width: 90vw;

@@ -118,7 +118,6 @@ body {
         // PROJECT CONTAINER
         .project-container {
             width: 100vw;
-            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -137,11 +136,27 @@ body {
                     background-color: #000;
                 }
             }
+            h3 {
+                width: 75vw;
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+            button {
+                font-family: "Raleway", sans-serif;
+                font-size: large;
+                color: #fff;
+                width: 10rem;
+                height: 3rem;
+                padding: 0.75rem;
+                margin-bottom: 2rem;
+                border: none;
+                background: #424251;
+            }
         }
         // PROJECT TEXT
         .project-text {
             width: 65vw;
-            height: 65vh;
+            height: 60vh;
             background-color: #D2AE5F;
             padding: 1.5rem;
             img {
@@ -151,6 +166,7 @@ body {
             p {
                 font-weight: 600;
                 line-height: 1.7rem;
+                margin-bottom: 2rem;
             }
         }
         // PROJECT SHOWCASE
