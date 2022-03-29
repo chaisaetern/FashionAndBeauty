@@ -25,7 +25,6 @@ body {
 
 
 @media (max-width: 480px) {
-
     // HEADER ~
     .header {
         width: 100vw;
@@ -63,7 +62,6 @@ body {
     }
 
 
-
     // MAIN ~
     .main {
         width: 100vw;
@@ -71,6 +69,8 @@ body {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+
+
         // HERO ~
         .hero-container {
             width: 100vw;
@@ -113,6 +113,7 @@ body {
                 }
             }
         }
+
 
         // PROJECT CONTAINER
         .project-container {
@@ -223,7 +224,6 @@ body {
                 }
             }
         }
-
 
 
         // BANNER CONTAINER
