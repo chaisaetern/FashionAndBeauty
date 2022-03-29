@@ -30,7 +30,7 @@ body p, body span, body a {
   .header {
     width: 100vw;
     height: 85vh;
-    background: url("./img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") center no-repeat;
+    background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") top left no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -82,7 +82,6 @@ body p, body span, body a {
   }
   .main {
     width: 100vw;
-    height: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -490,4 +489,4 @@ body p, body span, body a {
             align-items: center;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_mobile.css.map */
