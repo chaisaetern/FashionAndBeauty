@@ -60,7 +60,7 @@
                 justify-content: flex-start;
                 align-items: flex-start;
                 margin: 5rem 1rem;
-                width: 75vw;
+                width: 60vw;
                 h2 {
                     text-align: left;
                     margin-bottom: 1.2rem;
@@ -73,7 +73,7 @@
                 }
             }
             .hero-img-container { 
-                width: 75vw;
+                width: 60vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -99,11 +99,9 @@
             align-items: center;
             background-color: $tertiary;
             .project-title {
-                width: 75vw;
+                width: 60vw;
                 margin: 3rem;
-                padding-left: 2rem;
                 h2 {
-                    text-align: left;
                     padding: 1rem 0;
                 }
                 p {
@@ -113,7 +111,7 @@
                 }
             }
             h3 {
-                width: 75vw;
+                width: 60vw;
                 text-align: center;
                 margin-bottom: 3rem;
             }
@@ -131,19 +129,22 @@
         }
         // PROJECT TEXT
         .project-text {
-            width: 65vw;
+            width: 60vw;
             border-top: $border;
             border-bottom: $border;
             background-color: $secondary;
-            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             img {
                 width: 100%;
-                margin: 2rem 0;
             }
             p {
                 font-weight: 600;
                 line-height: 1.7rem;
-                margin-bottom: 2rem;
+                margin-bottom: 3rem;
+                width: 75%;
             }
         }
         // PROJECT SHOWCASE
@@ -153,7 +154,7 @@
             justify-content: center;
             align-items: center;
             img {
-                width: 80%;
+                max-width: 80%;
             }
         }
 
@@ -167,7 +168,7 @@
             align-items: center;
             background-color: $primary;
             .creative-section-1 {
-                width: 75vw;
+                width: 60vw;
                 margin: 4em;
                 .creative-img-container-1 {
                     img {
@@ -182,7 +183,7 @@
                 }
             }
             .creative-section-2 {
-                width: 75vw;
+                width: 60vw;
                 margin-top: 4rem;
                 h2 {
                     color: #D2AE5F;
@@ -210,7 +211,7 @@
             align-items: center;
             background-color: $tertiary;
             .banner {
-                width: 75vw;
+                width: 60vw;
                 background-color: $white;
                 margin: 4rem 0;
                 .banner-img-container {
@@ -246,7 +247,7 @@
             background-color: $primary;
             padding: 3rem 0;
             .brand {
-                width: 75vw;
+                width: 60vw;
                 h2 {
                     color: $white;
                     padding: 2rem 0;
@@ -278,7 +279,7 @@
                     justify-content: flex-start;
                     align-items: center;
                     .tile {
-                        width: 75vw;
+                        width: 60vw;
                         height: 26rem;
                         background-color: $white;
                         overflow: hidden;
@@ -309,7 +310,7 @@
             align-items: center;
             text-align: center;
             .services-layer {
-                width: 75vw;
+                width: 60vw;
                 padding: 4rem;
                 h2 {
                     margin: 3rem;
@@ -349,7 +350,7 @@
                 justify-content: center;
                 align-items: center;
                 .footer-text {
-                    width: 75vw;
+                    width: 60vw;
                     display: inherit;
                     justify-content: center;
                     align-items: center;

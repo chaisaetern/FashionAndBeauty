@@ -2,6 +2,19 @@ body {
   width: 100vw;
   padding: 0;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6, body p,
@@ -184,20 +197,51 @@ body p, body span, body a {
     margin: 3rem;
   }
   .main .project-container .project-title h2 {
-    text-align: left;
-    padding: 1rem 0;
+    padding-bottom: 0.5rem;
   }
   .main .project-container .project-title p {
     width: 50%;
     height: 0.6rem;
     background-color: #292933;
   }
-  .main .project-container h3 {
+  .main .project-container .project-content-container {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .project-container .project-content-container .project-showcase-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .project-container .project-content-container .project-showcase-container h3 {
     width: 75vw;
     text-align: center;
     margin-bottom: 3rem;
   }
-  .main .project-container button {
+  .main .project-container .project-content-container .project-showcase-container button {
     font-family: "Raleway", sans-serif;
     font-size: large;
     color: #FFFFFF;
@@ -213,16 +257,29 @@ body p, body span, body a {
     border-top: 2.5rem solid #292933;
     border-bottom: 2.5rem solid #292933;
     background-color: #D2AE5F;
-    padding: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem;
   }
   .main .project-text img {
     width: 100%;
-    margin: 2rem 0;
   }
   .main .project-text p {
     font-weight: 600;
     line-height: 1.7rem;
     margin-bottom: 2rem;
+    width: 75%;
   }
   .main .project-showcase {
     width: 90vw;
@@ -592,7 +649,7 @@ body p, body span, body a {
         -ms-flex-align: start;
             align-items: flex-start;
     margin: 5rem 1rem;
-    width: 75vw;
+    width: 60vw;
   }
   .main .hero-container .hero-text h2 {
     text-align: left;
@@ -605,7 +662,7 @@ body p, body span, body a {
     margin-right: 2rem;
   }
   .main .hero-container .hero-img-container {
-    width: 75vw;
+    width: 60vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -644,12 +701,10 @@ body p, body span, body a {
     background-color: #F3F3F3;
   }
   .main .project-container .project-title {
-    width: 75vw;
+    width: 60vw;
     margin: 3rem;
-    padding-left: 2rem;
   }
   .main .project-container .project-title h2 {
-    text-align: left;
     padding: 1rem 0;
   }
   .main .project-container .project-title p {
@@ -658,7 +713,7 @@ body p, body span, body a {
     background-color: #292933;
   }
   .main .project-container h3 {
-    width: 75vw;
+    width: 60vw;
     text-align: center;
     margin-bottom: 3rem;
   }
@@ -674,20 +729,32 @@ body p, body span, body a {
     background: #292933;
   }
   .main .project-text {
-    width: 65vw;
+    width: 60vw;
     border-top: 2.5rem solid #292933;
     border-bottom: 2.5rem solid #292933;
     background-color: #D2AE5F;
-    padding: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .main .project-text img {
     width: 100%;
-    margin: 2rem 0;
   }
   .main .project-text p {
     font-weight: 600;
     line-height: 1.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    width: 75%;
   }
   .main .project-showcase {
     width: 90vw;
@@ -702,7 +769,7 @@ body p, body span, body a {
             align-items: center;
   }
   .main .project-showcase img {
-    width: 80%;
+    max-width: 80%;
   }
   .main .creative-container {
     width: 100vw;
@@ -722,7 +789,7 @@ body p, body span, body a {
     background-color: #292933;
   }
   .main .creative-container .creative-section-1 {
-    width: 75vw;
+    width: 60vw;
     margin: 4em;
   }
   .main .creative-container .creative-section-1 .creative-img-container-1 img {
@@ -735,7 +802,7 @@ body p, body span, body a {
     margin: 2rem 0;
   }
   .main .creative-container .creative-section-2 {
-    width: 75vw;
+    width: 60vw;
     margin-top: 4rem;
   }
   .main .creative-container .creative-section-2 h2 {
@@ -770,7 +837,7 @@ body p, body span, body a {
     background-color: #F3F3F3;
   }
   .main .banner-container .banner {
-    width: 75vw;
+    width: 60vw;
     background-color: #FFFFFF;
     margin: 4rem 0;
   }
@@ -810,7 +877,7 @@ body p, body span, body a {
     padding: 3rem 0;
   }
   .main .brand-container .brand {
-    width: 75vw;
+    width: 60vw;
   }
   .main .brand-container .brand h2 {
     color: #FFFFFF;
@@ -854,7 +921,7 @@ body p, body span, body a {
             align-items: center;
   }
   .main .brand-container .brand .tiles-container .tile {
-    width: 75vw;
+    width: 60vw;
     height: 26rem;
     background-color: #FFFFFF;
     overflow: hidden;
@@ -891,7 +958,7 @@ body p, body span, body a {
     text-align: center;
   }
   .main .services-container .services-layer {
-    width: 75vw;
+    width: 60vw;
     padding: 4rem;
   }
   .main .services-container .services-layer h2 {
@@ -940,7 +1007,7 @@ body p, body span, body a {
             align-items: center;
   }
   .main .footer .footer-layer .footer-text {
-    width: 75vw;
+    width: 60vw;
     display: inherit;
     -webkit-box-pack: center;
         -ms-flex-pack: center;

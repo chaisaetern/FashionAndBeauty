@@ -1,4 +1,100 @@
 // DESKTOP
 @media (min-width: 769px) and (max-width: 1200px) {
-    
+    // HEADER CONTAINER
+    .header {
+        width: 100vw;
+        height: 85vh;
+        height: inherit;
+        background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") top left no-repeat;
+        background-size: 100vw 100vh;
+        display: flex;
+        justify-content: flex-end;
+        .header-overlay {
+            width: 50vw;
+            height: 85vh;
+            background-color: $primary;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .header-text-container {
+                // width: 100%;
+                margin: 0 3rem 0 5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+                img {
+                    width: 12rem;
+                    margin-bottom: 2rem;
+                }
+                h1 {
+                    color: $white;
+                    font-size: 4.5rem;
+                }
+                p {
+                    color: #6B6A78;
+                    line-height: 2rem;
+                    text-align: right;
+                    width: 95%;
+                }
+            }
+        }
+    }
+
+    // MAIN CONTAINER
+    .main {
+        width: 100vw;
+        // NEED A MAX-WIDTH FOR HIGHER RES
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+
+        // HERO CONTAINER
+        .hero-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+            .hero-text {
+                margin-right: 3rem;
+                width: 50vw;
+                h2 {
+                    margin: 2rem 0;
+                    font-size: 2.5rem;
+                }
+                p {
+                    line-height: 2rem;
+                }
+            }
+            .hero-img-container {
+                border-top: $border;
+                border-bottom: $border;
+                img {
+                    width: 100%;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+        }
+
+        // PROJECT CONTAINER
+        .project-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: $tertiary;
+            .project-title {
+                h2 {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    // 
 }

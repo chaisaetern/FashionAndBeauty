@@ -102,8 +102,7 @@
                 width: 75vw;
                 margin: 3rem;
                 h2 {
-                    text-align: left;
-                    padding: 1rem 0;
+                    padding-bottom: 0.5rem;
                 }
                 p {
                     width: 50%;
@@ -111,21 +110,35 @@
                     background-color: $primary;
                 }
             }
-            h3 {
-                width: 75vw;
-                text-align: center;
-                margin-bottom: 3rem;
-            }
-            button {
-                font-family: "Raleway", sans-serif;
-                font-size: large;
-                color: $white;
-                width: 10rem;
-                height: 3rem;
-                padding: 0.75rem;
-                margin-bottom: 2rem;
-                border: none;
-                background: $primary;
+            .project-content-container {
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .project-showcase-container {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    h3 {
+                        width: 75vw;
+                        text-align: center;
+                        margin-bottom: 3rem;
+                    }
+                    button {
+                        font-family: "Raleway", sans-serif;
+                        font-size: large;
+                        color: $white;
+                        width: 10rem;
+                        height: 3rem;
+                        padding: 0.75rem;
+                        margin-bottom: 2rem;
+                        border: none;
+                        background: $primary;
+                    }
+                }
             }
         }
 
@@ -136,15 +149,19 @@
             border-top: $border;
             border-bottom: $border;
             background-color: $secondary;
-            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
             img {
                 width: 100%;
-                margin: 2rem 0;
             }
             p {
                 font-weight: 600;
                 line-height: 1.7rem;
                 margin-bottom: 2rem;
+                width: 75%;
             }
         }
 
