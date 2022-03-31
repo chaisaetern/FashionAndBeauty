@@ -34,7 +34,7 @@ body h2, body h3, body h4, body h5, body h6 {
   font-size: 2.2rem;
 }
 
-body p, body span, body a {
+body p, body span, body a, body button {
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem;
 }
@@ -248,7 +248,7 @@ body p, body span, body a {
     width: 10rem;
     height: 3rem;
     padding: 0.75rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     border: none;
     background: #292933;
   }
@@ -1028,6 +1028,220 @@ body p, body span, body a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .header {
+    width: 100vw;
+    height: 85vh;
+    height: inherit;
+    background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") top left no-repeat;
+    background-size: 100vw 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .header .header-overlay {
+    width: 50vw;
+    height: 85vh;
+    background-color: #292933;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header-overlay .header-text-container {
+    margin: 0 3rem 0 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .header .header-overlay .header-text-container img {
+    width: 12rem;
+    margin-bottom: 2rem;
+  }
+  .header .header-overlay .header-text-container h1 {
+    color: #FFFFFF;
+    font-size: 4.5rem;
+  }
+  .header .header-overlay .header-text-container p {
+    color: #6B6A78;
+    line-height: 2rem;
+    text-align: right;
+    width: 95%;
+  }
+  .main {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .hero-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5rem;
+  }
+  .main .hero-container .hero-text {
+    margin-right: 3rem;
+    width: 50vw;
+  }
+  .main .hero-container .hero-text h2 {
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  .main .hero-container .hero-text p {
+    line-height: 2rem;
+  }
+  .main .hero-container .hero-img-container {
+    border-top: 2.5rem solid #292933;
+    border-bottom: 2.5rem solid #292933;
+  }
+  .main .hero-container .hero-img-container img {
+    width: 100%;
+    position: relative;
+    top: 2px;
+  }
+  .main .project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #F3F3F3;
+    padding: 4rem;
+  }
+  .main .project-container .project-title {
+    width: 75vw;
+    margin-bottom: 2rem;
+  }
+  .main .project-container .project-title h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .main .project-container .project-title p {
+    width: 18rem;
+    height: 1rem;
+    background-color: #292933;
+  }
+  .main .project-container .project-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .project-container .project-content-container .project-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #D2AE5F;
+    border-top: 2.5rem solid #292933;
+    border-bottom: 2.5rem solid #292933;
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+  }
+  .main .project-container .project-content-container .project-text img {
+    width: 100%;
+  }
+  .main .project-container .project-content-container .project-text p {
+    width: 75%;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+  .main .project-container .project-content-container .project-showcase-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .project-container .project-content-container .project-showcase-container button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #292933;
+    border: none;
+    color: #FFFFFF;
+    font-size: large;
+    position: relative;
+    top: 3rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .main .project-container .project-content-container .project-showcase-container button:hover {
+    background-color: #6B6A78;
   }
 }
 /*# sourceMappingURL=style.css.map */

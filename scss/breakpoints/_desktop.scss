@@ -81,19 +81,74 @@
 
         // PROJECT CONTAINER
         .project-container {
-            width: 100%;
-            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
             background-color: $tertiary;
+            padding: 4rem;
             .project-title {
+                width: 75vw;
+                margin-bottom: 2rem;
                 h2 {
                     text-align: left;
+                    font-size: 2.5rem;
+                    margin-bottom: 1rem;
+                }
+                p {
+                    width: 18rem;
+                    height: 1rem;
+                    background-color: $primary;
+                }
+            }
+            .project-content-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .project-text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $secondary;
+                    border-top: $border;
+                    border-bottom: $border;
+                    margin-right: 3rem;
+                    padding-bottom: 3rem;
+                    img {
+                        width: 100%;
+                    }
+                    p {
+                        width: 75%;
+                        line-height: 2rem;
+                        font-size: 1.2rem;
+                    }
+                }
+                .project-showcase-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    button {
+                        width: 10rem;
+                        height: 3rem;
+                        background-color: $primary;
+                        border: none;
+                        color: $white;
+                        font-size: large;
+                        position: relative;
+                        top: 3rem;
+                        transition: all 0.5s;
+                        &:hover {
+                            background-color: #6B6A78;
+                        }
+                    }
                 }
             }
         }
+
+        // 
     }
 
     // 
