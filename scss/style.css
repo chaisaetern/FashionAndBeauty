@@ -71,7 +71,7 @@ body p, body span, body a {
     width: 5.5rem;
   }
   .header .header-overlay .header-text-container h1 {
-    color: #FFFFFF;
+    color: #fff;
     margin: 0.5rem 0;
   }
   .header .header-overlay .header-text-container p {
@@ -177,7 +177,7 @@ body p, body span, body a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #6B6A78;
+    background-color: #F5F5F7;
   }
   .main .project-container .project-title {
     width: 75vw;
@@ -200,13 +200,13 @@ body p, body span, body a {
   .main .project-container button {
     font-family: "Raleway", sans-serif;
     font-size: large;
-    color: #FFFFFF;
+    color: #fff;
     width: 10rem;
     height: 3rem;
     padding: 0.75rem;
     margin-bottom: 2rem;
     border: none;
-    background-color: #292933;
+    background: #424251;
   }
   .main .project-text {
     width: 65vw;
@@ -255,7 +255,7 @@ body p, body span, body a {
     width: 100%;
   }
   .main .creative-container .creative-section-1 p {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 1.5rem;
     line-height: 2.2rem;
     margin: 2rem 0;
@@ -297,7 +297,7 @@ body p, body span, body a {
   }
   .main .banner-container .banner {
     width: 75vw;
-    background-color: #FFFFFF;
+    background-color: #fff;
     margin: 4rem 0;
   }
   .main .banner-container .banner .banner-img-container {
@@ -339,7 +339,7 @@ body p, body span, body a {
     width: 75vw;
   }
   .main .brand-container .brand h2 {
-    color: #FFFFFF;
+    color: #fff;
     padding: 2rem 0;
   }
   .main .brand-container .brand .brand-img-container {
@@ -359,7 +359,7 @@ body p, body span, body a {
     padding: 2rem;
   }
   .main .brand-container .brand .brand-text p {
-    color: #FFFFFF;
+    color: #fff;
     font-size: 1.4rem;
     line-height: 2.5rem;
     margin: 1rem 0;
@@ -382,7 +382,7 @@ body p, body span, body a {
   .main .brand-container .brand .tiles-container .tile {
     width: 75vw;
     height: 26rem;
-    background-color: #FFFFFF;
+    background-color: #fff;
     overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -404,7 +404,7 @@ body p, body span, body a {
   .main .services-container {
     width: 100vw;
     background-color: #292933;
-    color: #FFFFFF;
+    color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -433,7 +433,7 @@ body p, body span, body a {
   .main .footer {
     width: 100%;
     background: #333;
-    color: #FFFFFF;
+    color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
