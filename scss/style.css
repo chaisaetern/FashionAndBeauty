@@ -177,7 +177,7 @@ body p, body span, body a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #F5F5F7;
+    background-color: #6B6A78;
   }
   .main .project-container .project-title {
     width: 75vw;
@@ -206,7 +206,7 @@ body p, body span, body a {
     padding: 0.75rem;
     margin-bottom: 2rem;
     border: none;
-    background-color: #424251;
+    background-color: #292933;
   }
   .main .project-text {
     width: 65vw;
