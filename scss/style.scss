@@ -23,6 +23,11 @@ body {
     }
 }
 
+$primary: #292933;
+$secondary: #D2AE5F;
+$tertiary: #F3F3F3;
+$white: #FFFFFF;
+$border: 2.5rem solid $primary;
 
 @media (max-width: 480px) {
     // HEADER ~
@@ -34,7 +39,7 @@ body {
         justify-content: flex-end;
         .header-overlay {
             width: 85vw;
-            background-color: #292933;
+            background-color: $primary;
             display: flex;
             justify-content: flex-end;
             align-items: center;
@@ -48,7 +53,7 @@ body {
                     width: 5.5rem;
                 }
                 h1 {
-                    color: #fff;
+                    color: $white;
                     margin: 0.5rem 0;
                 }
                 p {
@@ -103,8 +108,8 @@ body {
                 justify-content: center;
                 align-items: center;
                 margin: 1rem;
-                border-top: 2.5rem solid #292933;
-                border-bottom: 2.5rem solid #292933;
+                border-top: $border;
+                border-bottom: $border;
                 overflow: hidden;
                 img {
                     width: 100%;
@@ -122,7 +127,7 @@ body {
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            background-color: #F5F5F7;
+            background-color: $tertiary;
             .project-title {
                 width: 75vw;
                 margin: 3rem;
@@ -144,7 +149,7 @@ body {
             button {
                 font-family: "Raleway", sans-serif;
                 font-size: large;
-                color: #fff;
+                color: $white;
                 width: 10rem;
                 height: 3rem;
                 padding: 0.75rem;
@@ -158,8 +163,8 @@ body {
         // PROJECT TEXT
         .project-text {
             width: 65vw;
-            border-top: 2.5rem solid #292933;
-            border-bottom: 2.5rem solid #292933;
+            border-top: $border;
+            border-bottom: $border;
             background-color: #D2AE5F;
             padding: 1.5rem;
             img {
@@ -190,7 +195,7 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #292933;
+            background-color: $primary;
             .creative-section-1 {
                 width: 75vw;
                 margin: 4em;
@@ -200,7 +205,7 @@ body {
                     }
                 }
                 p {
-                    color: #fff;
+                    color: $white;
                     font-size: 1.5rem;
                     line-height: 2.2rem;
                     margin: 2rem 0;
@@ -233,16 +238,16 @@ body {
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            background-color: #F5F5F7;
+            background-color: $tertiary;
             .banner {
                 width: 75vw;
-                background-color: #fff;
+                background-color: $white;
                 margin: 4rem 0;
                 .banner-img-container {
                     padding: 4rem 0;
                     background-color: #D2AE5F;
-                    border-top: 2.5rem solid #292933;
-                    border-bottom: 2.5rem solid #292933;
+                    border-top: $border;
+                    border-bottom: $border;
                     img {
                         width: 100%;
                     }
@@ -268,12 +273,12 @@ body {
             flex-direction: column;
             justify-self: flex-start;
             align-items: center;
-            background-color: #292933;
+            background-color: $primary;
             padding: 3rem 0;
             .brand {
                 width: 75vw;
                 h2 {
-                    color: #fff;
+                    color: $white;
                     padding: 2rem 0;
                 }
                 .brand-img-container {
@@ -291,7 +296,7 @@ body {
                     margin: 0;
                     padding: 2rem;
                     p {
-                        color: #fff;
+                        color: $white;
                         font-size: 1.4rem;
                         line-height: 2.5rem;
                         margin: 1rem 0;
@@ -305,7 +310,7 @@ body {
                     .tile {
                         width: 75vw;
                         height: 26rem;
-                        background-color: #fff;
+                        background-color: $white;
                         overflow: hidden;
                         display: flex;
                         justify-content: center;
@@ -327,8 +332,8 @@ body {
         // SERVICES CONTAINER
         .services-container {
             width: 100vw;
-            background-color: #292933;
-            color: #fff;
+            background-color: $primary;
+            color: $white;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -356,7 +361,7 @@ body {
         .footer {
             width: 100%;
             background: #333;
-            color: #fff;
+            color: $white;
             display: flex;
             justify-content: center;
             align-items: center;
