@@ -1,29 +1,6 @@
 @import "./abstracts/colors";
+@import "./base/reset";
 
-// RESET
-body {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-    h1, h2, h3, h4, h5, h6, p,
-    ul, li, a, div, section, img {
-        margin: 0;
-        padding: 0;
-    }
-    h1 {
-        font-family: "Titillium Web", sans-serif;
-        font-weight: 100;
-    }
-    h2, h3, h4, h5, h6 {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 100;
-        font-size: 2.2rem;
-    }
-    p, span, a {
-        font-family: "Raleway", sans-serif;
-        font-size: 1.1rem;
-    }
-}
 
 @media (max-width: 480px) {
     // HEADER ~
