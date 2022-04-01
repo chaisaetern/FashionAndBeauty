@@ -1156,9 +1156,7 @@ html {
   .header {
     width: 100vw;
     height: 85vh;
-    height: inherit;
     background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") top left no-repeat;
-    background-size: 100vw 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1167,7 +1165,7 @@ html {
             justify-content: flex-end;
   }
   .header .header-overlay {
-    width: 50vw;
+    width: 50%;
     height: 85vh;
     background-color: #292933;
     display: -webkit-box;
@@ -1181,7 +1179,6 @@ html {
             align-items: center;
   }
   .header .header-overlay .header-text-container {
-    width: 100%;
     margin: 0 3rem 0 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1209,7 +1206,6 @@ html {
     color: #6B6A78;
     line-height: 2rem;
     text-align: right;
-    width: 95%;
   }
   .main {
     width: 100vw;
@@ -1490,7 +1486,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 4rem;
+    padding: 0 4rem;
   }
   .main .banner-container .banner .banner-img-container {
     background-color: #D2AE5F;
@@ -1540,10 +1536,10 @@ html {
             align-items: center;
   }
   .main .brand-container .brand > h2 {
+    width: 75vw;
     color: #FFFFFF;
     font-weight: bolder;
     margin-bottom: 3rem;
-    padding: 0 15rem;
     text-align: center;
   }
   .main .brand-container .brand .brand-section {
@@ -1562,7 +1558,7 @@ html {
             align-items: center;
   }
   .main .brand-container .brand .brand-section .brand-img-container {
-    width: 30vw;
+    min-width: 30vw;
     overflow: hidden;
     border-radius: 8rem;
     margin-left: 4rem;
@@ -1574,7 +1570,6 @@ html {
             transform: rotate(25deg);
   }
   .main .brand-container .brand .brand-section .brand-text {
-    width: 60vw;
     position: relative;
     top: 3rem;
   }
@@ -1595,7 +1590,6 @@ html {
     line-height: 2rem;
   }
   .main .brand-container .brand .tiles-container {
-    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

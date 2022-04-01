@@ -4,20 +4,17 @@
     .header {
         width: 100vw;
         height: 85vh;
-        height: inherit;
         background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") top left no-repeat;
-        background-size: 100vw 100vh;
         display: flex;
         justify-content: flex-end;
         .header-overlay {
-            width: 50vw;
+            width: 50%;
             height: 85vh;
             background-color: $primary;
             display: flex;
             justify-content: flex-end;
             align-items: center;
             .header-text-container {
-                width: 100%;
                 margin: 0 3rem 0 5rem;
                 display: flex;
                 flex-direction: column;
@@ -35,7 +32,7 @@
                     color: #6B6A78;
                     line-height: 2rem;
                     text-align: right;
-                    width: 95%;
+                    // width: 95%;
                 }
             }
         }
@@ -229,7 +226,7 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-                margin: 0 4rem;
+                padding: 0 4rem;
                 .banner-img-container {
                     background-color: $secondary;
                     border-top: $border;
@@ -265,10 +262,10 @@
                 justify-content: center;
                 align-items: center;
                 & > h2 {
+                    width: 75vw;
                     color: $white;
                     font-weight: bolder;
                     margin-bottom: 3rem;
-                    padding: 0 15rem;
                     text-align: center;
                 }
                 .brand-section {
@@ -277,7 +274,7 @@
                     justify-content: center;
                     align-items: center;
                     .brand-img-container {
-                        width: 30vw;
+                        min-width: 30vw;
                         overflow: hidden;
                         border-radius: 8rem;
                         margin-left: 4rem;
@@ -288,7 +285,6 @@
                         }
                     }
                     .brand-text {
-                        width: 60vw;
                         position: relative;
                         top: 3rem;
                         & > h2 {
@@ -313,7 +309,7 @@
                     }
                 }
                 .tiles-container {
-                    width: 100vw;
+                    // width: 100vw;
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
