@@ -1469,5 +1469,124 @@ html {
     width: 100%;
     z-index: 1;
   }
+  .main .services-container {
+    width: 100vw;
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #292933;
+  }
+  .main .services-container .services-layer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .services-container .services-layer > h2 {
+    color: #FFFFFF;
+    font-weight: bolder;
+  }
+  .main .services-container .services-layer .services-lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .services-container .services-layer .services-lists .services-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+  .main .services-container .services-layer .services-lists .services-list > h2 {
+    color: #D2AE5F;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+  }
+  .main .services-container .services-layer .services-lists .services-list > p {
+    color: #FFFFFF;
+    line-height: 3rem;
+  }
+  .main .footer {
+    width: 100vw;
+    background-color: #333;
+    padding: 5rem 0;
+  }
+  .main .footer .footer-layer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+  }
+  .main .footer .footer-layer a {
+    color: #D2AE5F;
+    font-size: 1.4rem;
+  }
+  .main .footer .footer-layer > span {
+    margin: 2px;
+  }
+  .main .footer .footer-layer .footer-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .footer .footer-layer .footer-text > span {
+    margin: 0 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
