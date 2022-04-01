@@ -725,13 +725,14 @@ html {
     margin-bottom: 3rem;
   }
   .main .project-container .project-title > h2 {
-    width: 100vw;
+    width: 95.75vw;
     text-align: left;
     padding-bottom: 1rem;
     font-weight: bolder;
+    margin-left: 2rem;
   }
   .main .project-container .project-title > p {
-    width: 28vw;
+    width: 35vw;
     height: 0.5rem;
     background-color: #292933;
   }
