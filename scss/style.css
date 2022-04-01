@@ -625,7 +625,6 @@ html {
   }
   .main .hero-container {
     width: 100vw;
-    padding-bottom: 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -639,6 +638,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 5rem 0;
   }
   .main .hero-container .hero-text {
     display: -webkit-box;
@@ -654,8 +654,7 @@ html {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin: 5rem 1rem;
-    width: 60vw;
+    padding: 0 5rem;
   }
   .main .hero-container .hero-text h2 {
     text-align: left;
@@ -665,10 +664,8 @@ html {
     font-family: "Raleway", sans-serif;
     text-align: left;
     line-height: 1.6rem;
-    margin-right: 2rem;
   }
   .main .hero-container .hero-img-container {
-    width: 60vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -682,12 +679,10 @@ html {
     border-top: 2.5rem solid #292933;
     border-bottom: 2.5rem solid #292933;
     overflow: hidden;
+    width: 65vw;
   }
   .main .hero-container .hero-img-container img {
     width: 100%;
-    margin: 2rem;
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
   }
   .main .project-container {
     width: 100vw;
@@ -705,25 +700,43 @@ html {
         -ms-flex-align: center;
             align-items: center;
     background-color: #F3F3F3;
+    padding: 5rem 0;
   }
   .main .project-container .project-title {
-    width: 60vw;
-    margin: 3rem;
-  }
-  .main .project-container .project-title h2 {
-    padding: 1rem 0;
-  }
-  .main .project-container .project-title p {
-    width: 40%;
-    height: 0.6rem;
-    background-color: #292933;
-  }
-  .main .project-container h3 {
-    width: 60vw;
-    text-align: center;
     margin-bottom: 3rem;
   }
-  .main .project-container button {
+  .main .project-container .project-title > h2 {
+    width: 100vw;
+    text-align: left;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+  }
+  .main .project-container .project-title > p {
+    width: 28vw;
+    height: 0.5rem;
+    background-color: #292933;
+  }
+  .main .project-container .project-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .project-container .project-content-container > h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+  }
+  .main .project-container .project-content-container > button {
     font-family: "Raleway", sans-serif;
     font-size: large;
     color: #FFFFFF;
@@ -735,7 +748,7 @@ html {
     background: #292933;
   }
   .main .project-text {
-    width: 60vw;
+    width: 65vw;
     border-top: 2.5rem solid #292933;
     border-bottom: 2.5rem solid #292933;
     background-color: #D2AE5F;
@@ -762,8 +775,23 @@ html {
     margin-bottom: 3rem;
     width: 75%;
   }
-  .main .project-showcase {
-    width: 90vw;
+  .main .project-showcase-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .project-showcase-container .project-showcase {
+    width: 65vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -774,8 +802,26 @@ html {
         -ms-flex-align: center;
             align-items: center;
   }
-  .main .project-showcase img {
-    max-width: 80%;
+  .main .project-showcase-container .project-showcase img {
+    width: 100%;
+  }
+  .main .project-showcase-container > h3 {
+    font-weight: bolder;
+    padding-bottom: 1rem;
+  }
+  .main .project-showcase-container > button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #292933;
+    border: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 2rem;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .main .project-showcase-container > button:hover {
+    background-color: #D2AE5F;
   }
   .main .creative-container {
     width: 100vw;
@@ -795,7 +841,6 @@ html {
     background-color: #292933;
   }
   .main .creative-container .creative-section-1 {
-    width: 60vw;
     margin: 4em;
   }
   .main .creative-container .creative-section-1 .creative-img-container-1 img {
@@ -808,7 +853,6 @@ html {
     margin: 2rem 0;
   }
   .main .creative-container .creative-section-2 {
-    width: 60vw;
     margin-top: 4rem;
   }
   .main .creative-container .creative-section-2 h2 {
@@ -843,7 +887,6 @@ html {
     background-color: #F3F3F3;
   }
   .main .banner-container .banner {
-    width: 60vw;
     background-color: #FFFFFF;
     margin: 4rem 0;
   }
@@ -881,9 +924,6 @@ html {
             align-items: center;
     background-color: #292933;
     padding: 3rem 0;
-  }
-  .main .brand-container .brand {
-    width: 60vw;
   }
   .main .brand-container .brand h2 {
     color: #FFFFFF;
@@ -927,7 +967,6 @@ html {
             align-items: center;
   }
   .main .brand-container .brand .tiles-container .tile {
-    width: 60vw;
     height: 26rem;
     background-color: #FFFFFF;
     overflow: hidden;
@@ -964,7 +1003,6 @@ html {
     text-align: center;
   }
   .main .services-container .services-layer {
-    width: 60vw;
     padding: 4rem;
   }
   .main .services-container .services-layer h2 {
@@ -1013,7 +1051,6 @@ html {
             align-items: center;
   }
   .main .footer .footer-layer .footer-text {
-    width: 60vw;
     display: inherit;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1066,6 +1103,7 @@ html {
             align-items: center;
   }
   .header .header-overlay .header-text-container {
+    width: 100%;
     margin: 0 3rem 0 5rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1110,6 +1148,7 @@ html {
             align-items: center;
   }
   .main .hero-container {
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1123,7 +1162,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 5rem;
+    padding: 5rem 0;
   }
   .main .hero-container .hero-text {
     margin-right: 3rem;
@@ -1138,12 +1177,35 @@ html {
     line-height: 2rem;
     margin-right: 3rem;
   }
+  .main .hero-container .hero-img-container {
+    max-width: 35vw;
+    min-width: 30vw;
+  }
   .main .hero-container .hero-img-container img {
     width: 100%;
     border-top: 2.5rem solid #292933;
     border-bottom: 2.5rem solid #292933;
   }
   .main .project-container {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #F3F3F3;
+    padding: 5rem 0;
+  }
+  .main .project-container .project-title {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1157,18 +1219,13 @@ html {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    background-color: #F3F3F3;
-    padding: 5rem;
-  }
-  .main .project-container .project-title {
-    width: 75vw;
     margin-bottom: 2rem;
   }
   .main .project-container .project-title h2 {
     text-align: left;
     font-size: 2.5rem;
     font-weight: bolder;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 1rem;
   }
   .main .project-container .project-title p {
     width: 18rem;
@@ -1176,6 +1233,7 @@ html {
     background-color: #292933;
   }
   .main .project-container .project-content-container {
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1205,18 +1263,20 @@ html {
         -ms-flex-align: center;
             align-items: center;
     background-color: #D2AE5F;
-    margin-right: 3rem;
-    padding-bottom: 3rem;
     border-top: 2.5rem solid #292933;
     border-bottom: 2.5rem solid #292933;
+    max-width: 35vw;
+    min-width: 30vw;
   }
-  .main .project-container .project-content-container .project-text img {
+  .main .project-container .project-content-container .project-text > img {
     width: 100%;
+    position: relative;
+    left: 14rem;
   }
   .main .project-container .project-content-container .project-text p {
-    width: 75%;
     line-height: 2rem;
     font-size: 1.2rem;
+    padding: 4rem;
   }
   .main .project-container .project-content-container .project-showcase-container {
     display: -webkit-box;
@@ -1248,6 +1308,7 @@ html {
     background-color: #D2AE5F;
   }
   .main .creative-container {
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1262,10 +1323,40 @@ html {
         -ms-flex-align: center;
             align-items: center;
     background-color: #292933;
-    padding: 5rem;
+    padding: 5rem 0;
   }
   .main .creative-container .creative-section-1 {
-    width: 50vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 4rem;
+  }
+  .main .creative-container .creative-section-1 .creative-img-container-1 {
+    margin-bottom: 3rem;
+    max-width: 35vw;
+    min-width: 30vw;
+  }
+  .main .creative-container .creative-section-1 .creative-img-container-1 img {
+    width: 100%;
+    border-bottom: 2.5rem solid #D2AE5F;
+    border-top: 2.5rem solid #D2AE5F;
+  }
+  .main .creative-container .creative-section-1 p {
+    color: #FFFFFF;
+    line-height: 2rem;
+    padding: 1rem 5rem;
+  }
+  .main .creative-container .creative-section-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1279,21 +1370,6 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 3rem;
-  }
-  .main .creative-container .creative-section-1 .creative-img-container-1 {
-    margin-bottom: 3rem;
-  }
-  .main .creative-container .creative-section-1 .creative-img-container-1 img {
-    width: 100%;
-    position: relative;
-    top: 2px;
-    border-bottom: 2.5rem solid #D2AE5F;
-    border-top: 2.5rem solid #D2AE5F;
-  }
-  .main .creative-container .creative-section-1 p {
-    color: #FFFFFF;
-    line-height: 2rem;
   }
   .main .creative-container .creative-section-2 h2 {
     font-size: 5rem;
@@ -1308,15 +1384,18 @@ html {
   .main .creative-container .creative-section-2 .creative-img-container-2 {
     overflow: hidden;
     padding: 1.5rem;
+    margin-right: 4rem;
   }
   .main .creative-container .creative-section-2 .creative-img-container-2 img {
-    width: 100%;
+    max-width: 35vw;
+    min-width: 30vw;
     -webkit-transform: rotate(-13deg);
             transform: rotate(-13deg);
   }
   .main .banner-container {
+    width: 100vw;
     background-color: #F3F3F3;
-    padding: 3rem;
+    padding: 5rem 0;
   }
   .main .banner-container .banner {
     background-color: #FFFFFF;
@@ -1333,6 +1412,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 0 4rem;
   }
   .main .banner-container .banner .banner-img-container {
     background-color: #D2AE5F;
@@ -1345,9 +1425,11 @@ html {
   .main .banner-container .banner .banner-list-container h2 {
     margin-bottom: 3rem;
     font-weight: bolder;
+    text-align: center;
   }
   .main .banner-container .banner .banner-list-container p {
     line-height: 2rem;
+    margin-left: 2rem;
   }
   .main .brand-container {
     width: 100vw;
@@ -1361,6 +1443,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 5rem 0;
   }
   .main .brand-container .brand {
     width: 100%;
@@ -1377,7 +1460,6 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 5rem 0;
   }
   .main .brand-container .brand > h2 {
     color: #FFFFFF;
@@ -1405,14 +1487,18 @@ html {
     width: 30vw;
     overflow: hidden;
     border-radius: 8rem;
+    margin-left: 4rem;
   }
   .main .brand-container .brand .brand-section .brand-img-container img {
-    width: 100%;
+    max-width: 35vw;
+    min-width: 30vw;
     -webkit-transform: rotate(25deg);
             transform: rotate(25deg);
   }
   .main .brand-container .brand .brand-section .brand-text {
-    width: 65vw;
+    width: 60vw;
+    position: relative;
+    top: 3rem;
   }
   .main .brand-container .brand .brand-section .brand-text > h2 {
     color: #D2AE5F;
@@ -1426,11 +1512,12 @@ html {
   }
   .main .brand-container .brand .brand-section .brand-text > p {
     color: #FFFFFF;
-    margin-left: 3rem;
+    margin: 0 3rem;
     text-align: center;
     line-height: 2rem;
   }
   .main .brand-container .brand .tiles-container {
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1444,13 +1531,11 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    overflow: hidden;
     margin-top: 5rem;
+    overflow: hidden;
   }
   .main .brand-container .brand .tiles-container .tile {
-    width: 30vw;
-    height: 25rem;
-    overflow: hidden;
+    height: 23rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1460,13 +1545,17 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    overflow: hidden;
   }
   .main .brand-container .brand .tiles-container .tile:nth-child(2) {
+    max-width: 35vw;
+    min-width: 35vw;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
   .main .brand-container .brand .tiles-container .tile > img {
-    width: 100%;
+    max-width: 35vw;
+    min-width: 35vw;
     z-index: 1;
   }
   .main .services-container {
@@ -1482,6 +1571,7 @@ html {
         -ms-flex-align: center;
             align-items: center;
     background-color: #292933;
+    padding-top: 1rem;
   }
   .main .services-container .services-layer {
     display: -webkit-box;
@@ -1533,9 +1623,9 @@ html {
     padding: 1.5rem;
   }
   .main .services-container .services-layer .services-lists .services-list > h2 {
+    font-size: 1.75rem;
     color: #D2AE5F;
     font-weight: bolder;
-    margin-bottom: 2rem;
   }
   .main .services-container .services-layer .services-lists .services-list > p {
     color: #FFFFFF;

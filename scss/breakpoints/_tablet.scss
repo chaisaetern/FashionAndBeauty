@@ -49,18 +49,17 @@
         // HERO ~
         .hero-container {
             width: 100vw;
-            padding-bottom: 5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 5rem 0;
             .hero-text {
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items: flex-start;
-                margin: 5rem 1rem;
-                width: 60vw;
+                padding: 0 5rem;
                 h2 {
                     text-align: left;
                     margin-bottom: 1.2rem;
@@ -69,11 +68,9 @@
                     font-family: "Raleway", sans-serif;
                     text-align: left;
                     line-height: 1.6rem;
-                    margin-right: 2rem;
                 }
             }
             .hero-img-container { 
-                width: 60vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -81,10 +78,9 @@
                 border-top: $border;
                 border-bottom: $border;
                 overflow: hidden;
+                width: 65vw;
                 img {
                     width: 100%;
-                    margin: 2rem;
-                    transform: scale(1.3);
                 }
             }
         }
@@ -98,38 +94,47 @@
             justify-content: flex-start;
             align-items: center;
             background-color: $tertiary;
+            padding: 5rem 0;
             .project-title {
-                width: 60vw;
-                margin: 3rem;
-                h2 {
-                    padding: 1rem 0;
+                margin-bottom: 3rem;
+                & > h2 {
+                    width: 100vw;
+                    text-align: left;
+                    padding-bottom: 1rem;
+                    font-weight: bolder;
                 }
-                p {
-                    width: 40%;
-                    height: 0.6rem;
+                & > p {
+                    width: 28vw;
+                    height: 0.5rem;
                     background-color: $primary;
                 }
             }
-            h3 {
-                width: 60vw;
-                text-align: center;
-                margin-bottom: 3rem;
-            }
-            button {
-                font-family: "Raleway", sans-serif;
-                font-size: large;
-                color: $white;
-                width: 10rem;
-                height: 3rem;
-                padding: 0.75rem;
-                margin-bottom: 2rem;
-                border: none;
-                background: $primary;
+            .project-content-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                & > h3 {
+                    text-align: center;
+                    margin-bottom: 3rem;
+                    font-weight: bolder;
+                }
+                & > button {
+                    font-family: "Raleway", sans-serif;
+                    font-size: large;
+                    color: $white;
+                    width: 10rem;
+                    height: 3rem;
+                    padding: 0.75rem;
+                    margin-bottom: 2rem;
+                    border: none;
+                    background: $primary;
+                }
             }
         }
         // PROJECT TEXT
         .project-text {
-            width: 60vw;
+            width: 65vw;
             border-top: $border;
             border-bottom: $border;
             background-color: $secondary;
@@ -147,17 +152,39 @@
                 width: 75%;
             }
         }
-        // PROJECT SHOWCASE
-        .project-showcase {
-            width: 90vw;
+        // PROJECT SHOWCASE CONTAINER
+        .project-showcase-container {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            img {
-                max-width: 80%;
+            .project-showcase {
+                width: 65vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 100%;
+                }
+            }
+            & > h3 {
+                font-weight: bolder;
+                padding-bottom: 1rem;
+            }
+            & > button {
+                width: 10rem;
+                height: 3rem;
+                background-color: $primary;
+                border: none;
+                color: $white;
+                position: relative;
+                top: 2rem;
+                transition: all 0.5s;
+                &:hover {
+                    background-color: $secondary;
+                }
             }
         }
-
 
         // CREATIVE CONTAINER
         .creative-container {
@@ -168,7 +195,6 @@
             align-items: center;
             background-color: $primary;
             .creative-section-1 {
-                width: 60vw;
                 margin: 4em;
                 .creative-img-container-1 {
                     img {
@@ -183,7 +209,6 @@
                 }
             }
             .creative-section-2 {
-                width: 60vw;
                 margin-top: 4rem;
                 h2 {
                     color: #D2AE5F;
@@ -211,7 +236,6 @@
             align-items: center;
             background-color: $tertiary;
             .banner {
-                width: 60vw;
                 background-color: $white;
                 margin: 4rem 0;
                 .banner-img-container {
@@ -247,7 +271,6 @@
             background-color: $primary;
             padding: 3rem 0;
             .brand {
-                width: 60vw;
                 h2 {
                     color: $white;
                     padding: 2rem 0;
@@ -279,7 +302,7 @@
                     justify-content: flex-start;
                     align-items: center;
                     .tile {
-                        width: 60vw;
+    
                         height: 26rem;
                         background-color: $white;
                         overflow: hidden;
@@ -310,7 +333,6 @@
             align-items: center;
             text-align: center;
             .services-layer {
-                width: 60vw;
                 padding: 4rem;
                 h2 {
                     margin: 3rem;
@@ -350,7 +372,7 @@
                 justify-content: center;
                 align-items: center;
                 .footer-text {
-                    width: 60vw;
+
                     display: inherit;
                     justify-content: center;
                     align-items: center;
