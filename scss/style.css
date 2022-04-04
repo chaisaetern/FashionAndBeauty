@@ -48,7 +48,7 @@ html {
 @media (max-width: 480px) {
   .header {
     width: 100vw;
-    height: 85vh;
+    height: 75vh;
     background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") center no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -575,7 +575,7 @@ html {
 @media (min-width: 481px) and (max-width: 768px) {
   .header {
     width: 100vw;
-    height: 85vh;
+    height: 75vh;
     background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") center no-repeat;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1157,6 +1157,7 @@ html {
     width: 100vw;
     height: 85vh;
     background: url("../img/dbfa24d7-2e60-498c-03ce-2ae7b3d1c988.jpg") top left no-repeat;
+    background-size: 100vw 85vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
